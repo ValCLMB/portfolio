@@ -1,0 +1,22 @@
+div#container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+div.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+div.logo:hover{
+  background: #fae1d4;
+}
+img{
+  width: 38px;
+  margin: 0 30px;
+}
+

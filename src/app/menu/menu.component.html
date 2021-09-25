@@ -1,0 +1,7 @@
+<div>
+<button
+  *ngFor="let m of menu;"
+  (click)="activate(m)"
+  [ngStyle]="{'background-color':m.isSelect ? randomColor : 'white'}"
+  [routerLink]="m.link">{{m.name}}</button>
+</div>
